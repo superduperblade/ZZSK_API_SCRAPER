@@ -3,21 +3,26 @@ import time
 class train_API:
    
     API_KEY = r'PDh^2-$-M]8(dG8E+Q,FR}zsfz"Q~:N2pp\ykmg9ZEgKVrh42PHS?^sQ6<3;X,?-'
+    
     API_BASE = "https://appn.zssk.sk/api/v4/"
     API_GET_STATION = API_BASE+"station/name/"
     API_GET_STATION_IN_RADIUS= API_BASE+"station/in-radius"
     API_GET_ROUTE = API_BASE + "route"
     API_GET_ROUTE_NEXT = API_BASE + "route/next"
     API_GET_ROUTE_PREV = API_BASE + "route/previous"
+    API_GET_DELAY = API_BASE + "train/delay"
+
+
     headers = {
     "x-Api-Key": API_KEY,
     "platform": "and",
     "lang": "sk",
-    "User-Agent": "okhttp"}
+    "User-Agent": "okhttp",
+    "Content-Type": "application/json"}
 
 
     # Gets a list of stations in a city/town/villiage and their names and cordinates
-    def queryStation(self,station_name,maxCount=20):
+    def queryStation(self,station_name,maxCount=20,returnjson=False):
 
         params = {"maxCount": maxCount}
 
@@ -26,11 +31,12 @@ class train_API:
         headers=self.headers,
         params=params)
 
-        print("Status:", response.status_code)
+        print("Status:", response.status_code)  
 
-        data = response.json()
-        return data
-    
+        if returnjson:
+          return response.json()
+        else:
+            return response
     #Gets a list of stations in a radius from a specifed longitude and latitude in a specified radius returns names and coordinates
     def queryStationInRadius(self,longitude,latitude,radius_in_meters=10_000,maxCount=20,returnjson=False):
 
@@ -107,3 +113,20 @@ class train_API:
             return response.json()
         else:
             return response
+
+    #use the train number to get a delay of its route
+    def queryTrainDelay(self,train_Number,TravelDate,returnjson=False):
+        body = {
+            "travelDate": TravelDate,
+            "trainNumber": train_Number
+        }
+        
+        responce = requests.get(self.API_GET_ROUTE,
+        headers=self.headers,
+        json=body)
+
+        if returnjson:
+            return responce.json()
+        else:
+            return responce
+        

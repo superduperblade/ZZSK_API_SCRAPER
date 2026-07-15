@@ -14,6 +14,9 @@ print(station1)
 station2 = zssk_api.queryStation(station_name="Nitra",returnjson=True)
 print(station2)
 
+responce2 = zssk_api.queryTrainDelay(train_Number="616",TravelDate=1784110020000)
+print(responce2)
+
 routes = zssk_api.queryRoute(fromStation="5613600",toStation="5615306",returnjson=True)
 with open("routes.json","w",encoding="utf-8") as f:
     json.dump(routes,f,indent=4,ensure_ascii=False)
