@@ -10,7 +10,7 @@ import json
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from api.zzsk import train_API
 import zstandard as zstd
-
+import argparse
 zzsk_api = train_API()
 
 DUMP_DIR = "./data_dump"
@@ -48,9 +48,15 @@ ROUTES = [
     ("5613600", "5613580"), ("5613580", "5613600"), # Košice <-> Čierna nad Tisou
     ("5617915", "5614776"), ("5614776", "5617915"), # Žilina <-> Čadca
 ]
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-cl","--CompressionLevel",help="level to compress json at using zstandard",default=4)
+args = parser.parse_args()
+
+
 def compress(content):
     data = json.dumps(content).encode("utf-8")
-    compressor = zstd.ZstdCompressor(level=4)
+    compressor = zstd.ZstdCompressor(level=args.CompressionLevel)
     compressed_data = compressor.compress(data)
     return compressed_data
 
@@ -93,7 +99,7 @@ def main():
         os.makedirs(DUMP_DIR)
     
 
-  
+    
 
     while True:
         current_time_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
