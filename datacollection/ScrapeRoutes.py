@@ -50,7 +50,7 @@ ROUTES = [
 ]
 def compress(content):
     data = json.dumps(content).encode("utf-8")
-    compressor = zstd.ZstdCompressor(level=3)
+    compressor = zstd.ZstdCompressor(level=4)
     compressed_data = compressor.compress(data)
     return compressed_data
 
@@ -75,9 +75,12 @@ def save_response(origin, destination, response):
         f"{safe_origin.replace(' ','_')}_"
         f"{safe_destination.replace(' ','_')}.json"
     )
+    
+    content = json.dumps(response, indent=4, ensure_ascii=False)
+    content_bytes = content.encode("utf-8")
 
     with open(folder / filename, "wb") as f:
-        f.write(compress(data=json.dump(response, f, indent=4, ensure_ascii=False)))
+        f.write(compress(content=content))
 
 
 
