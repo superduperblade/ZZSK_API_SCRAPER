@@ -9,7 +9,7 @@ from datetime import datetime
 import json
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from api.zzsk import train_API
-
+import zstandard as zstd
 
 zzsk_api = train_API()
 
@@ -48,6 +48,12 @@ ROUTES = [
     ("5613600", "5613580"), ("5613580", "5613600"), # Košice <-> Čierna nad Tisou
     ("5617915", "5614776"), ("5614776", "5617915"), # Žilina <-> Čadca
 ]
+def compress(content):
+    data = json.dumps(content).encode("utf-8")
+    compressor = zstd.ZstdCompressor(level=3)
+    compressed_data = compressor.compress(data)
+    return compressed_data
+
 
 def save_response(origin, destination, response):
 
@@ -70,8 +76,8 @@ def save_response(origin, destination, response):
         f"{safe_destination.replace(' ','_')}.json"
     )
 
-    with open(folder / filename, "w", encoding="utf8") as f:
-        json.dump(response, f, indent=4, ensure_ascii=False)
+    with open(folder / filename, "wb", encoding="utf8") as f:
+        compress(data=json.dump(response, f, indent=4, ensure_ascii=False))
 
 
 
