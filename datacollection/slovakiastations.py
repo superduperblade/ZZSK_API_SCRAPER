@@ -87,8 +87,8 @@ def main():
             )
                 all_stations[station_id] = s  # dict dedupe: last write wins
  
-        print(f"[{i}/{len(grid_points)}] ({lat}, {lon}) -> "
-              f"{len(stations)} stations (total unique so far: {len(all_stations)})")
+                print(f"[{i}/{len(grid_points)}] ({lat}, {lon}) -> "
+                f"{len(stations)} stations (total unique so far: {len(all_stations)})")
  
         time.sleep(REQUEST_DELAY_SEC)
  
@@ -96,6 +96,9 @@ def main():
     # 5. EXPORT
     # ---------------------------------------------------------------------
         df = pd.DataFrame(list(all_stations.values()))
+        columns_to_remove = ["image","distanceInMeters"]
+        df = df.drop(columns=columns_to_remove,errors="ignore")
+
         print(f"\nTotal unique stations found: {len(df)}")
  
         with pd.ExcelWriter(OUTPUT_XLSX, engine="openpyxl") as writer:

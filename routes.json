@@ -2,1560 +2,6 @@
     {
         "id": null,
         "length": 415,
-        "duration": 426,
-        "arrivalTimestamp": 1784149980000,
-        "departureTimestamp": 1784124420000,
-        "infoForCurrentConnection": null,
-        "timeForCurrentConnection": null,
-        "infoForNextConnection": 835266,
-        "timeForNextConnection": 1784124420,
-        "infoForPreviousConnection": 845665,
-        "timeForPreviousConnection": 1784149980,
-        "finalOfferExpiration": null,
-        "routeSegments": [
-            {
-                "duration": 253,
-                "length": 320,
-                "departureTimestamp": 1784124420000,
-                "arrivalTimestamp": 1784139600000,
-                "trainStops": [
-                    {
-                        "arrivalTimestamp": null,
-                        "departureTimestamp": 1784124420000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613600",
-                            "name": "Košice",
-                            "image": null,
-                            "latitude": 48.7235122112466,
-                            "longitude": 21.268602316686394,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613600",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784125140000,
-                        "departureTimestamp": 1784125260000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613560",
-                            "name": "Kysak",
-                            "image": null,
-                            "latitude": 48.85375499359784,
-                            "longitude": 21.223844110856252,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613560",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784126100000,
-                        "departureTimestamp": 1784126220000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613490",
-                            "name": "Margecany",
-                            "image": null,
-                            "latitude": 48.89557779410868,
-                            "longitude": 21.013247526227865,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613490",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784127780000,
-                        "departureTimestamp": 1784127900000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613360",
-                            "name": "Spišská Nová Ves",
-                            "image": null,
-                            "latitude": 48.95130770203797,
-                            "longitude": 20.560810750659734,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613360",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784129340000,
-                        "departureTimestamp": 1784129700000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613250",
-                            "name": "Poprad-Tatry",
-                            "image": null,
-                            "latitude": 49.06101244019404,
-                            "longitude": 20.295398948394478,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613250",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784130480000,
-                        "departureTimestamp": 1784130600000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613200",
-                            "name": "Štrba",
-                            "image": null,
-                            "latitude": 49.08402298144809,
-                            "longitude": 20.066602826873385,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613200",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784132160000,
-                        "departureTimestamp": 1784132280000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613101",
-                            "name": "Liptovský Mikuláš",
-                            "image": null,
-                            "latitude": 49.09308135382273,
-                            "longitude": 19.605389860158976,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613101",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784133300000,
-                        "departureTimestamp": 1784133420000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613041",
-                            "name": "Ružomberok",
-                            "image": null,
-                            "latitude": 49.08447121142946,
-                            "longitude": 19.309227796896042,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613041",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784134320000,
-                        "departureTimestamp": 1784134440000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5617475",
-                            "name": "Kraľovany",
-                            "image": null,
-                            "latitude": 49.15395856982057,
-                            "longitude": 19.129880106405327,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5617475",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784135160000,
-                        "departureTimestamp": 1784135400000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5617895",
-                            "name": "Vrútky",
-                            "image": null,
-                            "latitude": 49.11598915967363,
-                            "longitude": 18.924495664075803,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5617895",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784136360000,
-                        "departureTimestamp": 1784136720000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5617915",
-                            "name": "Žilina",
-                            "image": null,
-                            "latitude": 49.22791375158773,
-                            "longitude": 18.746633728837626,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5617915",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784137980000,
-                        "departureTimestamp": 1784138040000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5617695",
-                            "name": "Považská Bystrica",
-                            "image": null,
-                            "latitude": 49.12367670446615,
-                            "longitude": 18.431754789722177,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5617695",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784138520000,
-                        "departureTimestamp": 1784138640000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5617725",
-                            "name": "Púchov",
-                            "image": null,
-                            "latitude": 49.11483106976344,
-                            "longitude": 18.327262566715152,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5617725",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784139600000,
-                        "departureTimestamp": 1784139720000,
-                        "trainStops": true,
-                        "transferStation": true,
-                        "trainStation": {
-                            "uicCode": "5613866",
-                            "name": "Trenčín",
-                            "image": null,
-                            "latitude": 48.897647017287994,
-                            "longitude": 18.05177296813231,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613866",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    }
-                ],
-                "previousTrainStops": [],
-                "nextTrainStops": [
-                    {
-                        "arrivalTimestamp": 1784142240000,
-                        "departureTimestamp": 1784142360000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613676",
-                            "name": "Trnava",
-                            "image": null,
-                            "latitude": 48.37070766165073,
-                            "longitude": 17.585196773563627,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613676",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784144220000,
-                        "departureTimestamp": 1784144340000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613596",
-                            "name": "Bratislava-Vinohrady",
-                            "image": null,
-                            "latitude": 48.187337255078845,
-                            "longitude": 17.131797842199113,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613596",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784144700000,
-                        "departureTimestamp": null,
-                        "trainStops": true,
-                        "transferStation": true,
-                        "trainStation": {
-                            "uicCode": "5613206",
-                            "name": "Bratislava hl.st.",
-                            "image": null,
-                            "latitude": 48.1598444137488,
-                            "longitude": 17.106380862288848,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613206",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    }
-                ],
-                "availableTicketClasses": null,
-                "hasReservation": null,
-                "ticketClass": null,
-                "train": {
-                    "type": 16,
-                    "typeList": [
-                        16
-                    ],
-                    "number": "624",
-                    "name": "TATRAN",
-                    "features": [
-                        {
-                            "id": 103,
-                            "featureDescription": "Pojazdná úschovňa batožín a bicyklov",
-                            "featureName": "Preprava batožín a bicyklov",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 4,
-                            "featureDescription": "Prvá trieda",
-                            "featureName": "Prvá trieda",
-                            "order": 1,
-                            "reservationType": 5,
-                            "reservationName": "povinná rezervácia miesta",
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 5,
-                            "featureDescription": "Druhá trieda",
-                            "featureName": "Druhá trieda",
-                            "order": 2,
-                            "reservationType": 3,
-                            "reservationName": "možná rezervácia miesta",
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 9,
-                            "featureDescription": "Reštauračný alebo bistro vozeň",
-                            "featureName": "Reštauračný alebo bistro vozeň",
-                            "order": 3,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 21,
-                            "featureDescription": "Vo vlaku je radený vozeň so zdvíhacou plošinou vhodný na prepravu imobilných cestujúcich na vozíku",
-                            "featureName": "Zdvíhacia plošina oddiel na prepravu invalidov n",
-                            "order": 15,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 22,
-                            "featureDescription": "Vozeň, alebo kupé vo vozni vyhradené pre cestujúcich s deťmi do 10 rokov",
-                            "featureName": "Oddiel pre cestujúcich s deťmi do 10 rokov",
-                            "order": 4,
-                            "reservationType": 5,
-                            "reservationName": "povinná rezervácia miesta",
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 23,
-                            "featureDescription": "Preprava bicyklov",
-                            "featureName": "Preprava bicyklov",
-                            "order": 5,
-                            "reservationType": 22,
-                            "reservationName": "povinná rezervácia",
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 29,
-                            "featureDescription": "vo vlaku sú radené vozne s prípojkou 230 V",
-                            "featureName": "K dispozícii sú elektrické zásuvky",
-                            "order": 12,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 108,
-                            "featureDescription": "V označených vozňoch je v cene cestovného bezdrôtové pripojenie k internetu.",
-                            "featureName": "Wi-Fi pripojenie",
-                            "order": 7,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 134,
-                            "featureDescription": "SCIC NRT tarifa bez integrovanej rezervácie",
-                            "featureName": "SCIC NRT tarifa",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 208,
-                            "featureDescription": "Vlak nečaká na žiadne prípoje",
-                            "featureName": "Vlak nečaká na žiadne prípoje",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": 14,
-                            "stopStationIndex": 14
-                        },
-                        {
-                            "id": 208,
-                            "featureDescription": "Vlak nečaká na žiadne prípoje",
-                            "featureName": "Vlak nečaká na žiadne prípoje",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": 10,
-                            "stopStationIndex": 10
-                        },
-                        {
-                            "id": 208,
-                            "featureDescription": "Vlak nečaká na žiadne prípoje",
-                            "featureName": "Vlak nečaká na žiadne prípoje",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": 0,
-                            "stopStationIndex": 0
-                        },
-                        {
-                            "id": 150,
-                            "featureDescription": "Dámske kupé, 2.trieda",
-                            "featureName": "Dámske kupé, 2.trieda",
-                            "order": 0,
-                            "reservationType": 5,
-                            "reservationName": "povinná rezervácia miesta",
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        }
-                    ],
-                    "exceptions": [
-                        {
-                            "category": {
-                                "id": 7,
-                                "iconUrl": null,
-                                "categoryDescription": "Upozornenie!"
-                            },
-                            "description": "Ex 624: povinne miestenkový je vozeň 1. triedy č. 1 a vozne 2. triedy č. 3, 4, 5",
-                            "order": 20
-                        }
-                    ],
-                    "carrier": "Železničná spoločnosť Slovensko, a.s.",
-                    "carrierAbbrev": "ZSSK",
-                    "trainDelay": null,
-                    "canceledTrain": null,
-                    "canceledTrains": null,
-                    "closureTrain": {
-                        "stationFromUic": "5613866",
-                        "stationFrom": "Trenčín",
-                        "stationToUic": "5613206",
-                        "stationTo": "Bratislava hlavná stanica",
-                        "eventId": "vyl_7055_1780038938000_624_2026-07-15",
-                        "idWebdis": 7055,
-                        "action": "ROV 575",
-                        "region": "TT",
-                        "active": true,
-                        "startDateTime": 1779055260000,
-                        "endDateTime": 1788213540000,
-                        "startRouteNumber": 120,
-                        "endRouteNumber": 120,
-                        "lap": " ",
-                        "alternativeTransport": false,
-                        "createdAt": 1780038938000,
-                        "infoWeb": "Z dôvodu obmedzení na infraštruktúre od 1. 2. 2026\ndo 31. 8. 2026 má vlak upravenú časovú polohu, ktorá je v cestovnom\nporiadku zapracovaná.",
-                        "infoWebBase64": "<p class=\"MsoNormal\"><b>Z dôvodu obmedzení na infraštruktúre od 1. 2. 2026\ndo 31. 8. 2026 má vlak upravenú časovú polohu, ktorá je v cestovnom\nporiadku zapracovaná.</b><o:p></o:p></p><div id=\"userForm\"></div>",
-                        "includedTrainList": [
-                            {
-                                "trainNumber": 624,
-                                "trainType": "Ex",
-                                "trainName": "TATRAN",
-                                "transportPoints": [
-                                    {
-                                        "transportPointName": "Trenčín",
-                                        "transportPointUic": "5613866"
-                                    },
-                                    {
-                                        "transportPointName": "Trnava",
-                                        "transportPointUic": "5613676"
-                                    },
-                                    {
-                                        "transportPointName": "Bratislava-Vinohrady",
-                                        "transportPointUic": "5613596"
-                                    },
-                                    {
-                                        "transportPointName": "Bratislava hlavná stanica",
-                                        "transportPointUic": "5613206"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    "closureTrains": [
-                        {
-                            "stationFromUic": "5613866",
-                            "stationFrom": "Trenčín",
-                            "stationToUic": "5613206",
-                            "stationTo": "Bratislava hlavná stanica",
-                            "eventId": "vyl_7055_1780038938000_624_2026-07-15",
-                            "idWebdis": 7055,
-                            "action": "ROV 575",
-                            "region": "TT",
-                            "active": true,
-                            "startDateTime": 1779055260000,
-                            "endDateTime": 1788213540000,
-                            "startRouteNumber": 120,
-                            "endRouteNumber": 120,
-                            "lap": " ",
-                            "alternativeTransport": false,
-                            "createdAt": 1780038938000,
-                            "infoWeb": "Z dôvodu obmedzení na infraštruktúre od 1. 2. 2026\ndo 31. 8. 2026 má vlak upravenú časovú polohu, ktorá je v cestovnom\nporiadku zapracovaná.",
-                            "infoWebBase64": "<p class=\"MsoNormal\"><b>Z dôvodu obmedzení na infraštruktúre od 1. 2. 2026\ndo 31. 8. 2026 má vlak upravenú časovú polohu, ktorá je v cestovnom\nporiadku zapracovaná.</b><o:p></o:p></p><div id=\"userForm\"></div>",
-                            "includedTrainList": [
-                                {
-                                    "trainNumber": 624,
-                                    "trainType": "Ex",
-                                    "trainName": "TATRAN",
-                                    "transportPoints": [
-                                        {
-                                            "transportPointName": "Trenčín",
-                                            "transportPointUic": "5613866"
-                                        },
-                                        {
-                                            "transportPointName": "Trnava",
-                                            "transportPointUic": "5613676"
-                                        },
-                                        {
-                                            "transportPointName": "Bratislava-Vinohrady",
-                                            "transportPointUic": "5613596"
-                                        },
-                                        {
-                                            "transportPointName": "Bratislava hlavná stanica",
-                                            "transportPointUic": "5613206"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "changeOfOrdering": [],
-                    "expectedDelayId": 1,
-                    "expectedOccupancyId": 2,
-                    "planOfOrderingTrainUrl": null
-                },
-                "finalStation": {
-                    "uicCode": "5613206",
-                    "name": "Bratislava hl.st.",
-                    "image": null,
-                    "latitude": 48.1598444137488,
-                    "longitude": 17.106380862288848,
-                    "distanceInMeters": -1
-                }
-            },
-            {
-                "duration": 40,
-                "length": 60,
-                "departureTimestamp": 1784142240000,
-                "arrivalTimestamp": 1784144640000,
-                "trainStops": [
-                    {
-                        "arrivalTimestamp": 1784142060000,
-                        "departureTimestamp": 1784142240000,
-                        "trainStops": true,
-                        "transferStation": true,
-                        "trainStation": {
-                            "uicCode": "5613866",
-                            "name": "Trenčín",
-                            "image": null,
-                            "latitude": 48.897647017287994,
-                            "longitude": 18.05177296813231,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613866",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784143140000,
-                        "departureTimestamp": 1784143260000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613816",
-                            "name": "Nové Mesto nad Váhom",
-                            "image": null,
-                            "latitude": 48.75197298757465,
-                            "longitude": 17.8358700136417,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613816",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784143860000,
-                        "departureTimestamp": 1784143980000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613746",
-                            "name": "Piešťany",
-                            "image": null,
-                            "latitude": 48.59724277259805,
-                            "longitude": 17.81473129289017,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613746",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784144640000,
-                        "departureTimestamp": 1784144760000,
-                        "trainStops": true,
-                        "transferStation": true,
-                        "trainStation": {
-                            "uicCode": "5613716",
-                            "name": "Leopoldov",
-                            "image": null,
-                            "latitude": 48.442678247271886,
-                            "longitude": 17.758523772805642,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613716",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    }
-                ],
-                "previousTrainStops": [
-                    {
-                        "arrivalTimestamp": null,
-                        "departureTimestamp": 1784140440000,
-                        "trainStops": true,
-                        "transferStation": true,
-                        "trainStation": {
-                            "uicCode": "5617725",
-                            "name": "Púchov",
-                            "image": null,
-                            "latitude": 49.11483106976344,
-                            "longitude": 18.327262566715152,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5617725",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784140920000,
-                        "departureTimestamp": 1784140980000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5617025",
-                            "name": "Ilava",
-                            "image": null,
-                            "latitude": 49.00289493263402,
-                            "longitude": 18.23625345491164,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5617025",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784141340000,
-                        "departureTimestamp": 1784141400000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5617015",
-                            "name": "Dubnica nad Váhom",
-                            "image": null,
-                            "latitude": 48.96726611809255,
-                            "longitude": 18.167460989410948,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5617015",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784141640000,
-                        "departureTimestamp": 1784141760000,
-                        "trainStops": true,
-                        "transferStation": true,
-                        "trainStation": {
-                            "uicCode": "5613886",
-                            "name": "Trenčianska Teplá",
-                            "image": null,
-                            "latitude": 48.93885446665814,
-                            "longitude": 18.113687051926632,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613886",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    }
-                ],
-                "nextTrainStops": [
-                    {
-                        "arrivalTimestamp": 1784145480000,
-                        "departureTimestamp": 1784145600000,
-                        "trainStops": true,
-                        "transferStation": true,
-                        "trainStation": {
-                            "uicCode": "5613676",
-                            "name": "Trnava",
-                            "image": null,
-                            "latitude": 48.37070766165073,
-                            "longitude": 17.585196773563627,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613676",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784146920000,
-                        "departureTimestamp": 1784147040000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613626",
-                            "name": "Pezinok",
-                            "image": null,
-                            "latitude": 48.283458487068515,
-                            "longitude": 17.27051979790445,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613626",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784147580000,
-                        "departureTimestamp": 1784147700000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613596",
-                            "name": "Bratislava-Vinohrady",
-                            "image": null,
-                            "latitude": 48.187337255078845,
-                            "longitude": 17.131797842199113,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613596",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784148000000,
-                        "departureTimestamp": null,
-                        "trainStops": true,
-                        "transferStation": true,
-                        "trainStation": {
-                            "uicCode": "5613206",
-                            "name": "Bratislava hl.st.",
-                            "image": null,
-                            "latitude": 48.1598444137488,
-                            "longitude": 17.106380862288848,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613206",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    }
-                ],
-                "availableTicketClasses": null,
-                "hasReservation": null,
-                "ticketClass": null,
-                "train": {
-                    "type": 4,
-                    "typeList": [
-                        4
-                    ],
-                    "number": "10736",
-                    "name": "POVAŽAN",
-                    "features": [
-                        {
-                            "id": 4,
-                            "featureDescription": "Prvá trieda",
-                            "featureName": "Prvá trieda",
-                            "order": 1,
-                            "reservationType": 5,
-                            "reservationName": "povinná rezervácia miesta",
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 5,
-                            "featureDescription": "Druhá trieda",
-                            "featureName": "Druhá trieda",
-                            "order": 2,
-                            "reservationType": 3,
-                            "reservationName": "možná rezervácia miesta",
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 23,
-                            "featureDescription": "Preprava bicyklov",
-                            "featureName": "Preprava bicyklov",
-                            "order": 5,
-                            "reservationType": 23,
-                            "reservationName": "možná rezervácia",
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 24,
-                            "featureDescription": "Vo vlaku je radený bezbariérový vozeň so zníženou plošinou a nástupnou rampou vhodný pre bezbariérový nástup cestujúch",
-                            "featureName": "Oddiel na prepravu imobilných cestujúcich rampa",
-                            "order": 16,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 29,
-                            "featureDescription": "vo vlaku sú radené vozne s prípojkou 230 V",
-                            "featureName": "K dispozícii sú elektrické zásuvky",
-                            "order": 12,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 108,
-                            "featureDescription": "V označených vozňoch je v cene cestovného bezdrôtové pripojenie k internetu.",
-                            "featureName": "Wi-Fi pripojenie",
-                            "order": 7,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 134,
-                            "featureDescription": "SCIC NRT tarifa bez integrovanej rezervácie",
-                            "featureName": "SCIC NRT tarifa",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 208,
-                            "featureDescription": "Vlak nečaká na žiadne prípoje",
-                            "featureName": "Vlak nečaká na žiadne prípoje",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": 8,
-                            "stopStationIndex": 8
-                        },
-                        {
-                            "id": 141,
-                            "featureDescription": "IDS BK - možnosť prepravy na integrované cestovné lístky a prestup na nadväznú prímestskú dopravu.",
-                            "featureName": "IDS BK",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": 8,
-                            "stopStationIndex": 11
-                        }
-                    ],
-                    "exceptions": [
-                        {
-                            "category": {
-                                "id": 9,
-                                "iconUrl": "icon_information.png",
-                                "categoryDescription": "IDS BK"
-                            },
-                            "description": "R 10736: R 10736: Vlak je zaradený do Integrovaného dopravného systému Bratislavského kraja (IDS BK) s možnosťou prepravy na integrované cestovné lístky a prestupu na nadväznú prímestskú dopravu.",
-                            "order": 29
-                        }
-                    ],
-                    "carrier": "Železničná spoločnosť Slovensko, a.s.",
-                    "carrierAbbrev": "ZSSK",
-                    "trainDelay": null,
-                    "canceledTrain": null,
-                    "canceledTrains": null,
-                    "closureTrain": null,
-                    "closureTrains": null,
-                    "changeOfOrdering": [],
-                    "expectedDelayId": 0,
-                    "expectedOccupancyId": 1,
-                    "planOfOrderingTrainUrl": null
-                },
-                "finalStation": {
-                    "uicCode": "5613206",
-                    "name": "Bratislava hl.st.",
-                    "image": null,
-                    "latitude": 48.1598444137488,
-                    "longitude": 17.106380862288848,
-                    "distanceInMeters": -1
-                }
-            },
-            {
-                "duration": 52,
-                "length": 35,
-                "departureTimestamp": 1784146860000,
-                "arrivalTimestamp": 1784149980000,
-                "trainStops": [
-                    {
-                        "arrivalTimestamp": 1784146800000,
-                        "departureTimestamp": 1784146860000,
-                        "trainStops": true,
-                        "transferStation": true,
-                        "trainStation": {
-                            "uicCode": "5613716",
-                            "name": "Leopoldov",
-                            "image": null,
-                            "latitude": 48.442678247271886,
-                            "longitude": 17.758523772805642,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613716",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784147040000,
-                        "departureTimestamp": 1784147040000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615916",
-                            "name": "Leopoldov zastávka",
-                            "image": null,
-                            "latitude": 48.44971454392589,
-                            "longitude": 17.77484488303085,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5615916",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784147220000,
-                        "departureTimestamp": 1784147520000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615906",
-                            "name": "Hlohovec",
-                            "image": null,
-                            "latitude": 48.43421389148633,
-                            "longitude": 17.806883589383645,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5615906",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784147880000,
-                        "departureTimestamp": 1784147880000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615936",
-                            "name": "Kľačany",
-                            "image": null,
-                            "latitude": 48.38789568155971,
-                            "longitude": 17.868069554797298,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5615936",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784148060000,
-                        "departureTimestamp": 1784148060000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615926",
-                            "name": "Rišňovce",
-                            "image": null,
-                            "latitude": 48.37396815872854,
-                            "longitude": 17.890519702975222,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": null
-                    },
-                    {
-                        "arrivalTimestamp": 1784148300000,
-                        "departureTimestamp": 1784148360000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615946",
-                            "name": "Alekšince",
-                            "image": null,
-                            "latitude": 48.364559297145895,
-                            "longitude": 17.943017798488643,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": null
-                    },
-                    {
-                        "arrivalTimestamp": 1784148540000,
-                        "departureTimestamp": 1784148540000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615956",
-                            "name": "Andač",
-                            "image": null,
-                            "latitude": 48.382001139109256,
-                            "longitude": 17.967422957239574,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5615956",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784148900000,
-                        "departureTimestamp": 1784148960000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615346",
-                            "name": "Zbehy obec",
-                            "image": null,
-                            "latitude": 48.367913420647845,
-                            "longitude": 18.0135103420599,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": null
-                    },
-                    {
-                        "arrivalTimestamp": 1784149140000,
-                        "departureTimestamp": 1784149260000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615336",
-                            "name": "Lužianky",
-                            "image": null,
-                            "latitude": 48.35279001062536,
-                            "longitude": 18.023939405416836,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5615336",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784149500000,
-                        "departureTimestamp": 1784149560000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615326",
-                            "name": "Mlynárce",
-                            "image": null,
-                            "latitude": 48.32453685151817,
-                            "longitude": 18.041742485191993,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5615326",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784149740000,
-                        "departureTimestamp": 1784149800000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615316",
-                            "name": "Nitra zastávka",
-                            "image": null,
-                            "latitude": 48.31274212040358,
-                            "longitude": 18.056776347234617,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5615316",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784149980000,
-                        "departureTimestamp": null,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5615306",
-                            "name": "Nitra",
-                            "image": null,
-                            "latitude": 48.30244677558488,
-                            "longitude": 18.079227198063098,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5615306",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    }
-                ],
-                "previousTrainStops": [
-                    {
-                        "arrivalTimestamp": null,
-                        "departureTimestamp": 1784145960000,
-                        "trainStops": true,
-                        "transferStation": true,
-                        "trainStation": {
-                            "uicCode": "5613676",
-                            "name": "Trnava",
-                            "image": null,
-                            "latitude": 48.37070766165073,
-                            "longitude": 17.585196773563627,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613676",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    },
-                    {
-                        "arrivalTimestamp": 1784146320000,
-                        "departureTimestamp": 1784146380000,
-                        "trainStops": true,
-                        "transferStation": false,
-                        "trainStation": {
-                            "uicCode": "5613696",
-                            "name": "Brestovany",
-                            "image": null,
-                            "latitude": 48.382775484422375,
-                            "longitude": 17.691108545429383,
-                            "distanceInMeters": -1
-                        },
-                        "trackAndPlatform": {
-                            "uic": "5613696",
-                            "planTrack": null,
-                            "changedTrack": null,
-                            "planPlatform": null,
-                            "changedPlatform": null,
-                            "eventId": null
-                        }
-                    }
-                ],
-                "nextTrainStops": [],
-                "availableTicketClasses": null,
-                "hasReservation": null,
-                "ticketClass": null,
-                "train": {
-                    "type": 1,
-                    "typeList": [
-                        1
-                    ],
-                    "number": "5159",
-                    "name": "",
-                    "features": [
-                        {
-                            "id": 5,
-                            "featureDescription": "Druhá trieda",
-                            "featureName": "Druhá trieda",
-                            "order": 2,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 23,
-                            "featureDescription": "Preprava bicyklov",
-                            "featureName": "Preprava bicyklov",
-                            "order": 5,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 24,
-                            "featureDescription": "Vo vlaku je radený bezbariérový vozeň so zníženou plošinou a nástupnou rampou vhodný pre bezbariérový nástup cestujúch",
-                            "featureName": "Oddiel na prepravu imobilných cestujúcich rampa",
-                            "order": 16,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 29,
-                            "featureDescription": "vo vlaku sú radené vozne s prípojkou 230 V",
-                            "featureName": "K dispozícii sú elektrické zásuvky",
-                            "order": 12,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 108,
-                            "featureDescription": "V označených vozňoch je v cene cestovného bezdrôtové pripojenie k internetu.",
-                            "featureName": "Wi-Fi pripojenie",
-                            "order": 7,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 134,
-                            "featureDescription": "SCIC NRT tarifa bez integrovanej rezervácie",
-                            "featureName": "SCIC NRT tarifa",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": -1,
-                            "stopStationIndex": -1
-                        },
-                        {
-                            "id": 128,
-                            "featureDescription": "Vlak zastavuje len na znamenie, alebo požiadanie",
-                            "featureName": "Zastavenie na znamenie",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": 5,
-                            "stopStationIndex": 5
-                        },
-                        {
-                            "id": 128,
-                            "featureDescription": "Vlak zastavuje len na znamenie, alebo požiadanie",
-                            "featureName": "Zastavenie na znamenie",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": 3,
-                            "stopStationIndex": 3
-                        },
-                        {
-                            "id": 128,
-                            "featureDescription": "Vlak zastavuje len na znamenie, alebo požiadanie",
-                            "featureName": "Zastavenie na znamenie",
-                            "order": 0,
-                            "reservationType": -1,
-                            "reservationName": null,
-                            "startStationIndex": 8,
-                            "stopStationIndex": 8
-                        }
-                    ],
-                    "exceptions": [],
-                    "carrier": "Železničná spoločnosť Slovensko, a.s.",
-                    "carrierAbbrev": "ZSSK",
-                    "trainDelay": null,
-                    "canceledTrain": null,
-                    "canceledTrains": null,
-                    "closureTrain": null,
-                    "closureTrains": null,
-                    "changeOfOrdering": [],
-                    "expectedDelayId": 1,
-                    "expectedOccupancyId": null,
-                    "planOfOrderingTrainUrl": null
-                },
-                "finalStation": {
-                    "uicCode": "5615306",
-                    "name": "Nitra",
-                    "image": null,
-                    "latitude": 48.30244677558488,
-                    "longitude": 18.079227198063098,
-                    "distanceInMeters": -1
-                }
-            }
-        ],
-        "routeSelfRefs": [
-            {
-                "selfRef": 415
-            },
-            {
-                "selfRef": 1712002160
-            },
-            {
-                "selfRef": 219
-            },
-            {
-                "selfRef": 3
-            },
-            {
-                "selfRef": 581171
-            },
-            {
-                "selfRef": 835266
-            },
-            {
-                "selfRef": 852839
-            },
-            {
-                "selfRef": 3
-            },
-            {
-                "selfRef": 158339
-            },
-            {
-                "selfRef": 838443
-            },
-            {
-                "selfRef": 837408
-            },
-            {
-                "selfRef": 3
-            },
-            {
-                "selfRef": 528920
-            },
-            {
-                "selfRef": 837237
-            },
-            {
-                "selfRef": 845665
-            }
-        ],
-        "routeSelfRefsParts": null,
-        "cpSelfRef": null,
-        "passengers": []
-    },
-    {
-        "id": null,
-        "length": 415,
         "duration": 383,
         "arrivalTimestamp": 1784174880000,
         "departureTimestamp": 1784151900000,
@@ -2961,7 +1407,7 @@
                 "selfRef": 415
             },
             {
-                "selfRef": 1712002160
+                "selfRef": 1714628160
             },
             {
                 "selfRef": 219
@@ -4598,7 +3044,7 @@
                 "selfRef": 415
             },
             {
-                "selfRef": 1712002160
+                "selfRef": 1714628160
             },
             {
                 "selfRef": 220
@@ -5804,7 +4250,7 @@
                 "selfRef": 415
             },
             {
-                "selfRef": 1712002160
+                "selfRef": 1714628160
             },
             {
                 "selfRef": 220
@@ -7633,7 +6079,7 @@
                                 "iconUrl": "icon_information.png",
                                 "categoryDescription": "IDS BK"
                             },
-                            "description": "REX 1807: Vlak je zaradený do Integrovaného dopravného systému Bratislavského kraja (IDS BK) s možnosťou prepravy na integrované cestovné lístky a prestupu na nadväznú prímestskú dopravu.",
+                            "description": "REX 1807: REX 1807: Vlak je zaradený do Integrovaného dopravného systému Bratislavského kraja (IDS BK) s možnosťou prepravy na integrované cestovné lístky a prestupu na nadväznú prímestskú dopravu.",
                             "order": 29
                         }
                     ],
@@ -7720,7 +6166,7 @@
                 "selfRef": 415
             },
             {
-                "selfRef": 1712002160
+                "selfRef": 1714628160
             },
             {
                 "selfRef": 220
@@ -7760,6 +6206,1507 @@
             },
             {
                 "selfRef": 845810
+            }
+        ],
+        "routeSelfRefsParts": null,
+        "cpSelfRef": null,
+        "passengers": []
+    },
+    {
+        "id": null,
+        "length": 449,
+        "duration": 426,
+        "arrivalTimestamp": 1784200380000,
+        "departureTimestamp": 1784174820000,
+        "infoForCurrentConnection": null,
+        "timeForCurrentConnection": null,
+        "infoForNextConnection": 835169,
+        "timeForNextConnection": 1784174820,
+        "infoForPreviousConnection": 845629,
+        "timeForPreviousConnection": 1784200380,
+        "finalOfferExpiration": null,
+        "routeSegments": [
+            {
+                "duration": 297,
+                "length": 397,
+                "departureTimestamp": 1784174820000,
+                "arrivalTimestamp": 1784192640000,
+                "trainStops": [
+                    {
+                        "arrivalTimestamp": null,
+                        "departureTimestamp": 1784174820000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613600",
+                            "name": "Košice",
+                            "image": null,
+                            "latitude": 48.7235122112466,
+                            "longitude": 21.268602316686394,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613600",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784175540000,
+                        "departureTimestamp": 1784175660000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613560",
+                            "name": "Kysak",
+                            "image": null,
+                            "latitude": 48.85375499359784,
+                            "longitude": 21.223844110856252,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613560",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784176500000,
+                        "departureTimestamp": 1784176620000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613490",
+                            "name": "Margecany",
+                            "image": null,
+                            "latitude": 48.89557779410868,
+                            "longitude": 21.013247526227865,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613490",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784178180000,
+                        "departureTimestamp": 1784178300000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613360",
+                            "name": "Spišská Nová Ves",
+                            "image": null,
+                            "latitude": 48.95130770203797,
+                            "longitude": 20.560810750659734,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613360",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784179740000,
+                        "departureTimestamp": 1784180100000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613250",
+                            "name": "Poprad-Tatry",
+                            "image": null,
+                            "latitude": 49.06101244019404,
+                            "longitude": 20.295398948394478,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613250",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784180880000,
+                        "departureTimestamp": 1784181000000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613200",
+                            "name": "Štrba",
+                            "image": null,
+                            "latitude": 49.08402298144809,
+                            "longitude": 20.066602826873385,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613200",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784182560000,
+                        "departureTimestamp": 1784182680000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613101",
+                            "name": "Liptovský Mikuláš",
+                            "image": null,
+                            "latitude": 49.09308135382273,
+                            "longitude": 19.605389860158976,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613101",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784183700000,
+                        "departureTimestamp": 1784183820000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613041",
+                            "name": "Ružomberok",
+                            "image": null,
+                            "latitude": 49.08447121142946,
+                            "longitude": 19.309227796896042,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613041",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784184720000,
+                        "departureTimestamp": 1784184840000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5617475",
+                            "name": "Kraľovany",
+                            "image": null,
+                            "latitude": 49.15395856982057,
+                            "longitude": 19.129880106405327,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5617475",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784185560000,
+                        "departureTimestamp": 1784185800000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5617895",
+                            "name": "Vrútky",
+                            "image": null,
+                            "latitude": 49.11598915967363,
+                            "longitude": 18.924495664075803,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5617895",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784186760000,
+                        "departureTimestamp": 1784187120000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5617915",
+                            "name": "Žilina",
+                            "image": null,
+                            "latitude": 49.22791375158773,
+                            "longitude": 18.746633728837626,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5617915",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784188380000,
+                        "departureTimestamp": 1784188440000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5617695",
+                            "name": "Považská Bystrica",
+                            "image": null,
+                            "latitude": 49.12367670446615,
+                            "longitude": 18.431754789722177,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5617695",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784188920000,
+                        "departureTimestamp": 1784189040000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5617725",
+                            "name": "Púchov",
+                            "image": null,
+                            "latitude": 49.11483106976344,
+                            "longitude": 18.327262566715152,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5617725",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784190000000,
+                        "departureTimestamp": 1784190120000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613866",
+                            "name": "Trenčín",
+                            "image": null,
+                            "latitude": 48.897647017287994,
+                            "longitude": 18.05177296813231,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613866",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784192640000,
+                        "departureTimestamp": 1784192760000,
+                        "trainStops": true,
+                        "transferStation": true,
+                        "trainStation": {
+                            "uicCode": "5613676",
+                            "name": "Trnava",
+                            "image": null,
+                            "latitude": 48.37070766165073,
+                            "longitude": 17.585196773563627,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613676",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    }
+                ],
+                "previousTrainStops": [],
+                "nextTrainStops": [
+                    {
+                        "arrivalTimestamp": 1784194620000,
+                        "departureTimestamp": 1784194740000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613596",
+                            "name": "Bratislava-Vinohrady",
+                            "image": null,
+                            "latitude": 48.187337255078845,
+                            "longitude": 17.131797842199113,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613596",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784195100000,
+                        "departureTimestamp": null,
+                        "trainStops": true,
+                        "transferStation": true,
+                        "trainStation": {
+                            "uicCode": "5613206",
+                            "name": "Bratislava hl.st.",
+                            "image": null,
+                            "latitude": 48.1598444137488,
+                            "longitude": 17.106380862288848,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613206",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    }
+                ],
+                "availableTicketClasses": null,
+                "hasReservation": null,
+                "ticketClass": null,
+                "train": {
+                    "type": 16,
+                    "typeList": [
+                        16
+                    ],
+                    "number": "604",
+                    "name": "TATRAN",
+                    "features": [
+                        {
+                            "id": 103,
+                            "featureDescription": "Pojazdná úschovňa batožín a bicyklov",
+                            "featureName": "Preprava batožín a bicyklov",
+                            "order": 0,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 4,
+                            "featureDescription": "Prvá trieda",
+                            "featureName": "Prvá trieda",
+                            "order": 1,
+                            "reservationType": 5,
+                            "reservationName": "povinná rezervácia miesta",
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 5,
+                            "featureDescription": "Druhá trieda",
+                            "featureName": "Druhá trieda",
+                            "order": 2,
+                            "reservationType": 3,
+                            "reservationName": "možná rezervácia miesta",
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 9,
+                            "featureDescription": "Reštauračný alebo bistro vozeň",
+                            "featureName": "Reštauračný alebo bistro vozeň",
+                            "order": 3,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 21,
+                            "featureDescription": "Vo vlaku je radený vozeň so zdvíhacou plošinou vhodný na prepravu imobilných cestujúcich na vozíku",
+                            "featureName": "Zdvíhacia plošina oddiel na prepravu invalidov n",
+                            "order": 15,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 22,
+                            "featureDescription": "Vozeň, alebo kupé vo vozni vyhradené pre cestujúcich s deťmi do 10 rokov",
+                            "featureName": "Oddiel pre cestujúcich s deťmi do 10 rokov",
+                            "order": 4,
+                            "reservationType": 5,
+                            "reservationName": "povinná rezervácia miesta",
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 23,
+                            "featureDescription": "Preprava bicyklov",
+                            "featureName": "Preprava bicyklov",
+                            "order": 5,
+                            "reservationType": 22,
+                            "reservationName": "povinná rezervácia",
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 29,
+                            "featureDescription": "vo vlaku sú radené vozne s prípojkou 230 V",
+                            "featureName": "K dispozícii sú elektrické zásuvky",
+                            "order": 12,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 108,
+                            "featureDescription": "V označených vozňoch je v cene cestovného bezdrôtové pripojenie k internetu.",
+                            "featureName": "Wi-Fi pripojenie",
+                            "order": 7,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 134,
+                            "featureDescription": "SCIC NRT tarifa bez integrovanej rezervácie",
+                            "featureName": "SCIC NRT tarifa",
+                            "order": 0,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 208,
+                            "featureDescription": "Vlak nečaká na žiadne prípoje",
+                            "featureName": "Vlak nečaká na žiadne prípoje",
+                            "order": 0,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": 10,
+                            "stopStationIndex": 10
+                        },
+                        {
+                            "id": 208,
+                            "featureDescription": "Vlak nečaká na žiadne prípoje",
+                            "featureName": "Vlak nečaká na žiadne prípoje",
+                            "order": 0,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": 0,
+                            "stopStationIndex": 0
+                        },
+                        {
+                            "id": 150,
+                            "featureDescription": "Dámske kupé, 2.trieda",
+                            "featureName": "Dámske kupé, 2.trieda",
+                            "order": 0,
+                            "reservationType": 5,
+                            "reservationName": "povinná rezervácia miesta",
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        }
+                    ],
+                    "exceptions": [
+                        {
+                            "category": {
+                                "id": 7,
+                                "iconUrl": null,
+                                "categoryDescription": "Upozornenie!"
+                            },
+                            "description": "Ex 604: Ex 604: povinne miestenkový je vozeň 1. triedy č. 1 a vozne 2. triedy č. 3, 4, 5",
+                            "order": 20
+                        }
+                    ],
+                    "carrier": "Železničná spoločnosť Slovensko, a.s.",
+                    "carrierAbbrev": "ZSSK",
+                    "trainDelay": null,
+                    "canceledTrain": null,
+                    "canceledTrains": null,
+                    "closureTrain": {
+                        "stationFromUic": "5613866",
+                        "stationFrom": "Trenčín",
+                        "stationToUic": "5613206",
+                        "stationTo": "Bratislava hlavná stanica",
+                        "eventId": "vyl_7055_1780038938000_604_2026-07-16",
+                        "idWebdis": 7055,
+                        "action": "ROV 575",
+                        "region": "TT",
+                        "active": true,
+                        "startDateTime": 1779055260000,
+                        "endDateTime": 1788213540000,
+                        "startRouteNumber": 120,
+                        "endRouteNumber": 120,
+                        "lap": " ",
+                        "alternativeTransport": false,
+                        "createdAt": 1780038938000,
+                        "infoWeb": "Z dôvodu obmedzení na infraštruktúre od 1. 2. 2026\ndo 31. 8. 2026 má vlak upravenú časovú polohu, ktorá je v cestovnom\nporiadku zapracovaná.",
+                        "infoWebBase64": "<p class=\"MsoNormal\"><b>Z dôvodu obmedzení na infraštruktúre od 1. 2. 2026\ndo 31. 8. 2026 má vlak upravenú časovú polohu, ktorá je v cestovnom\nporiadku zapracovaná.</b><o:p></o:p></p><div id=\"userForm\"></div>",
+                        "includedTrainList": [
+                            {
+                                "trainNumber": 604,
+                                "trainType": "Ex",
+                                "trainName": "TATRAN",
+                                "transportPoints": [
+                                    {
+                                        "transportPointName": "Trenčín",
+                                        "transportPointUic": "5613866"
+                                    },
+                                    {
+                                        "transportPointName": "Trnava",
+                                        "transportPointUic": "5613676"
+                                    },
+                                    {
+                                        "transportPointName": "Bratislava-Vinohrady",
+                                        "transportPointUic": "5613596"
+                                    },
+                                    {
+                                        "transportPointName": "Bratislava hlavná stanica",
+                                        "transportPointUic": "5613206"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "closureTrains": [
+                        {
+                            "stationFromUic": "5613866",
+                            "stationFrom": "Trenčín",
+                            "stationToUic": "5613206",
+                            "stationTo": "Bratislava hlavná stanica",
+                            "eventId": "vyl_7055_1780038938000_604_2026-07-16",
+                            "idWebdis": 7055,
+                            "action": "ROV 575",
+                            "region": "TT",
+                            "active": true,
+                            "startDateTime": 1779055260000,
+                            "endDateTime": 1788213540000,
+                            "startRouteNumber": 120,
+                            "endRouteNumber": 120,
+                            "lap": " ",
+                            "alternativeTransport": false,
+                            "createdAt": 1780038938000,
+                            "infoWeb": "Z dôvodu obmedzení na infraštruktúre od 1. 2. 2026\ndo 31. 8. 2026 má vlak upravenú časovú polohu, ktorá je v cestovnom\nporiadku zapracovaná.",
+                            "infoWebBase64": "<p class=\"MsoNormal\"><b>Z dôvodu obmedzení na infraštruktúre od 1. 2. 2026\ndo 31. 8. 2026 má vlak upravenú časovú polohu, ktorá je v cestovnom\nporiadku zapracovaná.</b><o:p></o:p></p><div id=\"userForm\"></div>",
+                            "includedTrainList": [
+                                {
+                                    "trainNumber": 604,
+                                    "trainType": "Ex",
+                                    "trainName": "TATRAN",
+                                    "transportPoints": [
+                                        {
+                                            "transportPointName": "Trenčín",
+                                            "transportPointUic": "5613866"
+                                        },
+                                        {
+                                            "transportPointName": "Trnava",
+                                            "transportPointUic": "5613676"
+                                        },
+                                        {
+                                            "transportPointName": "Bratislava-Vinohrady",
+                                            "transportPointUic": "5613596"
+                                        },
+                                        {
+                                            "transportPointName": "Bratislava hlavná stanica",
+                                            "transportPointUic": "5613206"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "changeOfOrdering": [],
+                    "expectedDelayId": 1,
+                    "expectedOccupancyId": 2,
+                    "planOfOrderingTrainUrl": null
+                },
+                "finalStation": {
+                    "uicCode": "5613206",
+                    "name": "Bratislava hl.st.",
+                    "image": null,
+                    "latitude": 48.1598444137488,
+                    "longitude": 17.106380862288848,
+                    "distanceInMeters": -1
+                }
+            },
+            {
+                "duration": 21,
+                "length": 22,
+                "departureTimestamp": 1784194740000,
+                "arrivalTimestamp": 1784196000000,
+                "trainStops": [
+                    {
+                        "arrivalTimestamp": null,
+                        "departureTimestamp": 1784194740000,
+                        "trainStops": true,
+                        "transferStation": true,
+                        "trainStation": {
+                            "uicCode": "5613676",
+                            "name": "Trnava",
+                            "image": null,
+                            "latitude": 48.37070766165073,
+                            "longitude": 17.585196773563627,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613676",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784195580000,
+                        "departureTimestamp": 1784195700000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613716",
+                            "name": "Leopoldov",
+                            "image": null,
+                            "latitude": 48.442678247271886,
+                            "longitude": 17.758523772805642,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613716",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784196000000,
+                        "departureTimestamp": 1784196120000,
+                        "trainStops": true,
+                        "transferStation": true,
+                        "trainStation": {
+                            "uicCode": "5615906",
+                            "name": "Hlohovec",
+                            "image": null,
+                            "latitude": 48.43421389148633,
+                            "longitude": 17.806883589383645,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615906",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    }
+                ],
+                "previousTrainStops": [],
+                "nextTrainStops": [
+                    {
+                        "arrivalTimestamp": 1784197260000,
+                        "departureTimestamp": 1784197320000,
+                        "trainStops": true,
+                        "transferStation": true,
+                        "trainStation": {
+                            "uicCode": "5615356",
+                            "name": "Zbehy",
+                            "image": null,
+                            "latitude": 48.382995976690296,
+                            "longitude": 18.0001293965627,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615356",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784198700000,
+                        "departureTimestamp": 1784198760000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615506",
+                            "name": "Topoľčany",
+                            "image": null,
+                            "latitude": 48.56347826392275,
+                            "longitude": 18.169583660217622,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615506",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784199420000,
+                        "departureTimestamp": 1784199900000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615196",
+                            "name": "Chynorany",
+                            "image": null,
+                            "latitude": 48.608912135147115,
+                            "longitude": 18.275073391596333,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615196",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784200080000,
+                        "departureTimestamp": 1784200140000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615536",
+                            "name": "Žabokreky nad Nitrou",
+                            "image": null,
+                            "latitude": 48.618413361294635,
+                            "longitude": 18.299509848535877,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615536",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784200380000,
+                        "departureTimestamp": 1784200440000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615546",
+                            "name": "Veľké Bielice",
+                            "image": null,
+                            "latitude": 48.62557436679886,
+                            "longitude": 18.34956673747397,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615546",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784200560000,
+                        "departureTimestamp": 1784200680000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615556",
+                            "name": "Partizánske",
+                            "image": null,
+                            "latitude": 48.62824001127945,
+                            "longitude": 18.37039443197358,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615556",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784200800000,
+                        "departureTimestamp": 1784200860000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615566",
+                            "name": "Partizánske zastávka",
+                            "image": null,
+                            "latitude": 48.62804481559168,
+                            "longitude": 18.39355619389793,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615566",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784201640000,
+                        "departureTimestamp": 1784201700000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5617215",
+                            "name": "Zemianske Kostoľany",
+                            "image": null,
+                            "latitude": 48.68544011608788,
+                            "longitude": 18.51923621051,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5617215",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784202000000,
+                        "departureTimestamp": 1784202060000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5617235",
+                            "name": "Nováky",
+                            "image": null,
+                            "latitude": 48.719145523710004,
+                            "longitude": 18.536148093470644,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5617235",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784202600000,
+                        "departureTimestamp": null,
+                        "trainStops": true,
+                        "transferStation": true,
+                        "trainStation": {
+                            "uicCode": "5617255",
+                            "name": "Prievidza",
+                            "image": null,
+                            "latitude": 48.775550947148545,
+                            "longitude": 18.616579479371023,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5617255",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    }
+                ],
+                "availableTicketClasses": null,
+                "hasReservation": null,
+                "ticketClass": null,
+                "train": {
+                    "type": 4,
+                    "typeList": [
+                        4
+                    ],
+                    "number": "747",
+                    "name": "PONITRAN",
+                    "features": [
+                        {
+                            "id": 5,
+                            "featureDescription": "Druhá trieda",
+                            "featureName": "Druhá trieda",
+                            "order": 2,
+                            "reservationType": 3,
+                            "reservationName": "možná rezervácia miesta",
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 23,
+                            "featureDescription": "Preprava bicyklov",
+                            "featureName": "Preprava bicyklov",
+                            "order": 5,
+                            "reservationType": 23,
+                            "reservationName": "možná rezervácia",
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 29,
+                            "featureDescription": "vo vlaku sú radené vozne s prípojkou 230 V",
+                            "featureName": "K dispozícii sú elektrické zásuvky",
+                            "order": 12,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 108,
+                            "featureDescription": "V označených vozňoch je v cene cestovného bezdrôtové pripojenie k internetu.",
+                            "featureName": "Wi-Fi pripojenie",
+                            "order": 7,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 134,
+                            "featureDescription": "SCIC NRT tarifa bez integrovanej rezervácie",
+                            "featureName": "SCIC NRT tarifa",
+                            "order": 0,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        }
+                    ],
+                    "exceptions": [],
+                    "carrier": "Železničná spoločnosť Slovensko, a.s.",
+                    "carrierAbbrev": "ZSSK",
+                    "trainDelay": null,
+                    "canceledTrain": null,
+                    "canceledTrains": null,
+                    "closureTrain": null,
+                    "closureTrains": null,
+                    "changeOfOrdering": [],
+                    "expectedDelayId": 0,
+                    "expectedOccupancyId": null,
+                    "planOfOrderingTrainUrl": null
+                },
+                "finalStation": {
+                    "uicCode": "5617255",
+                    "name": "Prievidza",
+                    "image": null,
+                    "latitude": 48.775550947148545,
+                    "longitude": 18.616579479371023,
+                    "distanceInMeters": -1
+                }
+            },
+            {
+                "duration": 41,
+                "length": 30,
+                "departureTimestamp": 1784197920000,
+                "arrivalTimestamp": 1784200380000,
+                "trainStops": [
+                    {
+                        "arrivalTimestamp": 1784197620000,
+                        "departureTimestamp": 1784197920000,
+                        "trainStops": true,
+                        "transferStation": true,
+                        "trainStation": {
+                            "uicCode": "5615906",
+                            "name": "Hlohovec",
+                            "image": null,
+                            "latitude": 48.43421389148633,
+                            "longitude": 17.806883589383645,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615906",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784198280000,
+                        "departureTimestamp": 1784198280000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615936",
+                            "name": "Kľačany",
+                            "image": null,
+                            "latitude": 48.38789568155971,
+                            "longitude": 17.868069554797298,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615936",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784198460000,
+                        "departureTimestamp": 1784198460000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615926",
+                            "name": "Rišňovce",
+                            "image": null,
+                            "latitude": 48.37396815872854,
+                            "longitude": 17.890519702975222,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": null
+                    },
+                    {
+                        "arrivalTimestamp": 1784198700000,
+                        "departureTimestamp": 1784198760000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615946",
+                            "name": "Alekšince",
+                            "image": null,
+                            "latitude": 48.364559297145895,
+                            "longitude": 17.943017798488643,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": null
+                    },
+                    {
+                        "arrivalTimestamp": 1784198940000,
+                        "departureTimestamp": 1784198940000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615956",
+                            "name": "Andač",
+                            "image": null,
+                            "latitude": 48.382001139109256,
+                            "longitude": 17.967422957239574,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615956",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784199300000,
+                        "departureTimestamp": 1784199360000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615346",
+                            "name": "Zbehy obec",
+                            "image": null,
+                            "latitude": 48.367913420647845,
+                            "longitude": 18.0135103420599,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": null
+                    },
+                    {
+                        "arrivalTimestamp": 1784199540000,
+                        "departureTimestamp": 1784199660000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615336",
+                            "name": "Lužianky",
+                            "image": null,
+                            "latitude": 48.35279001062536,
+                            "longitude": 18.023939405416836,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615336",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784199900000,
+                        "departureTimestamp": 1784199960000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615326",
+                            "name": "Mlynárce",
+                            "image": null,
+                            "latitude": 48.32453685151817,
+                            "longitude": 18.041742485191993,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615326",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784200140000,
+                        "departureTimestamp": 1784200200000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615316",
+                            "name": "Nitra zastávka",
+                            "image": null,
+                            "latitude": 48.31274212040358,
+                            "longitude": 18.056776347234617,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615316",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784200380000,
+                        "departureTimestamp": null,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615306",
+                            "name": "Nitra",
+                            "image": null,
+                            "latitude": 48.30244677558488,
+                            "longitude": 18.079227198063098,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615306",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    }
+                ],
+                "previousTrainStops": [
+                    {
+                        "arrivalTimestamp": null,
+                        "departureTimestamp": 1784196360000,
+                        "trainStops": true,
+                        "transferStation": true,
+                        "trainStation": {
+                            "uicCode": "5613676",
+                            "name": "Trnava",
+                            "image": null,
+                            "latitude": 48.37070766165073,
+                            "longitude": 17.585196773563627,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": null
+                    },
+                    {
+                        "arrivalTimestamp": 1784196720000,
+                        "departureTimestamp": 1784196780000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613696",
+                            "name": "Brestovany",
+                            "image": null,
+                            "latitude": 48.382775484422375,
+                            "longitude": 17.691108545429383,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": null
+                    },
+                    {
+                        "arrivalTimestamp": 1784197200000,
+                        "departureTimestamp": 1784197260000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5613716",
+                            "name": "Leopoldov",
+                            "image": null,
+                            "latitude": 48.442678247271886,
+                            "longitude": 17.758523772805642,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5613716",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    },
+                    {
+                        "arrivalTimestamp": 1784197440000,
+                        "departureTimestamp": 1784197440000,
+                        "trainStops": true,
+                        "transferStation": false,
+                        "trainStation": {
+                            "uicCode": "5615916",
+                            "name": "Leopoldov zastávka",
+                            "image": null,
+                            "latitude": 48.44971454392589,
+                            "longitude": 17.77484488303085,
+                            "distanceInMeters": -1
+                        },
+                        "trackAndPlatform": {
+                            "uic": "5615916",
+                            "planTrack": null,
+                            "changedTrack": null,
+                            "planPlatform": null,
+                            "changedPlatform": null,
+                            "eventId": null
+                        }
+                    }
+                ],
+                "nextTrainStops": [],
+                "availableTicketClasses": null,
+                "hasReservation": null,
+                "ticketClass": null,
+                "train": {
+                    "type": 1,
+                    "typeList": [
+                        1
+                    ],
+                    "number": "5149",
+                    "name": "",
+                    "features": [
+                        {
+                            "id": 5,
+                            "featureDescription": "Druhá trieda",
+                            "featureName": "Druhá trieda",
+                            "order": 2,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 23,
+                            "featureDescription": "Preprava bicyklov",
+                            "featureName": "Preprava bicyklov",
+                            "order": 5,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 24,
+                            "featureDescription": "Vo vlaku je radený bezbariérový vozeň so zníženou plošinou a nástupnou rampou vhodný pre bezbariérový nástup cestujúch",
+                            "featureName": "Oddiel na prepravu imobilných cestujúcich rampa",
+                            "order": 16,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 29,
+                            "featureDescription": "vo vlaku sú radené vozne s prípojkou 230 V",
+                            "featureName": "K dispozícii sú elektrické zásuvky",
+                            "order": 12,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 108,
+                            "featureDescription": "V označených vozňoch je v cene cestovného bezdrôtové pripojenie k internetu.",
+                            "featureName": "Wi-Fi pripojenie",
+                            "order": 7,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 134,
+                            "featureDescription": "SCIC NRT tarifa bez integrovanej rezervácie",
+                            "featureName": "SCIC NRT tarifa",
+                            "order": 0,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": -1,
+                            "stopStationIndex": -1
+                        },
+                        {
+                            "id": 128,
+                            "featureDescription": "Vlak zastavuje len na znamenie, alebo požiadanie",
+                            "featureName": "Zastavenie na znamenie",
+                            "order": 0,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": 3,
+                            "stopStationIndex": 3
+                        },
+                        {
+                            "id": 128,
+                            "featureDescription": "Vlak zastavuje len na znamenie, alebo požiadanie",
+                            "featureName": "Zastavenie na znamenie",
+                            "order": 0,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": 8,
+                            "stopStationIndex": 8
+                        },
+                        {
+                            "id": 128,
+                            "featureDescription": "Vlak zastavuje len na znamenie, alebo požiadanie",
+                            "featureName": "Zastavenie na znamenie",
+                            "order": 0,
+                            "reservationType": -1,
+                            "reservationName": null,
+                            "startStationIndex": 5,
+                            "stopStationIndex": 5
+                        }
+                    ],
+                    "exceptions": [],
+                    "carrier": "Železničná spoločnosť Slovensko, a.s.",
+                    "carrierAbbrev": "ZSSK",
+                    "trainDelay": null,
+                    "canceledTrain": null,
+                    "canceledTrains": null,
+                    "closureTrain": null,
+                    "closureTrains": null,
+                    "changeOfOrdering": [],
+                    "expectedDelayId": 0,
+                    "expectedOccupancyId": null,
+                    "planOfOrderingTrainUrl": null
+                },
+                "finalStation": {
+                    "uicCode": "5615306",
+                    "name": "Nitra",
+                    "image": null,
+                    "latitude": 48.30244677558488,
+                    "longitude": 18.079227198063098,
+                    "distanceInMeters": -1
+                }
+            }
+        ],
+        "routeSelfRefs": [
+            {
+                "selfRef": 415
+            },
+            {
+                "selfRef": 1714628160
+            },
+            {
+                "selfRef": 220
+            },
+            {
+                "selfRef": 3
+            },
+            {
+                "selfRef": 569887
+            },
+            {
+                "selfRef": 835169
+            },
+            {
+                "selfRef": 838311
+            },
+            {
+                "selfRef": 3
+            },
+            {
+                "selfRef": 629932
+            },
+            {
+                "selfRef": 836560
+            },
+            {
+                "selfRef": 837153
+            },
+            {
+                "selfRef": 3
+            },
+            {
+                "selfRef": 528060
+            },
+            {
+                "selfRef": 847911
+            },
+            {
+                "selfRef": 845629
             }
         ],
         "routeSelfRefsParts": null,

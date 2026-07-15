@@ -121,9 +121,9 @@ class train_API:
             "trainNumber": train_Number
         }
         
-        responce = requests.get(self.API_GET_ROUTE,
+        responce = requests.get(self.API_GET_DELAY,
         headers=self.headers,
-        json=body)
+        params=body)
 
         if returnjson:
             return responce.json()
