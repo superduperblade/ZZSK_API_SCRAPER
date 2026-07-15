@@ -7,6 +7,8 @@ class train_API:
     API_GET_STATION = API_BASE+"station/name/"
     API_GET_STATION_IN_RADIUS= API_BASE+"station/in-radius"
     API_GET_ROUTE = API_BASE + "route"
+    API_GET_ROUTE_NEXT = API_BASE + "route/next"
+    API_GET_ROUTE_PREV = API_BASE + "route/previous"
     headers = {
     "x-Api-Key": API_KEY,
     "platform": "and",
@@ -14,7 +16,7 @@ class train_API:
     "User-Agent": "okhttp"}
 
 
-
+    # Gets a list of stations in a city/town/villiage and their names and cordinates
     def queryStation(self,station_name,maxCount=20):
 
         params = {"maxCount": maxCount}
@@ -29,7 +31,8 @@ class train_API:
         data = response.json()
         return data
     
-    def queryStationInRadius(self,longitude,latitude,radius_in_meters=10_000,maxCount=20):
+    #Gets a list of stations in a radius from a specifed longitude and latitude in a specified radius returns names and coordinates
+    def queryStationInRadius(self,longitude,latitude,radius_in_meters=10_000,maxCount=20,returnjson=False):
 
         ## the api returns 400 if radius_in_meters is beyond 25_000 meters warn the caller
         if int(radius_in_meters) > 25000:
@@ -48,9 +51,10 @@ class train_API:
 
         return response.json()
     
+    # Gets train routes from one station to another including being able to sort by query info
     def queryRoute(self,fromStation,toStation,departure=True,travelDate=str(int(time.time()*1000)),
         trainChange=True,maxChangeCount=2,minChangeTime=5,maxChangeTime=60,
-        hasBicycle=False,hasChild=False,hasWheelchair=False):
+        hasBicycle=False,hasChild=False,hasWheelchair=False,returnjson=False):
         params = {
         "fromStation": fromStation,      # Bratislava hl.st.
         "toStation": toStation,        # example destination
@@ -72,4 +76,34 @@ class train_API:
         headers=self.headers,
         params=params)
 
-        return response.json()
+        if returnjson:
+            return response.json()
+        else:
+            return response
+    def queryNextRoute(self,connectionNextInfo,connectionNextTime):
+        params={
+            "connectionNextInfo": connectionNextInfo,
+            "connectionNextTime" : connectionNextTime
+        }
+        response = requests.get(
+        self.API_GET_ROUTE_NEXT,
+        headers=self.headers,
+        params=params)
+        if returnjson:
+            return response.json()
+        else:
+            return response
+
+    def queryPreviousRoute(self,connectionPrevInfo,connectionPrevTime,returnjson=False):
+        params={
+            "connectionPrevInfo": connectionNextInfo,
+            "connectionPrevTime" : connectionNextTime
+        }
+        response = requests.get(
+        self.API_GET_ROUTE_PREV,
+        headers=self.headers,
+        params=params)
+        if returnjson:
+            return response.json()
+        else:
+            return response
