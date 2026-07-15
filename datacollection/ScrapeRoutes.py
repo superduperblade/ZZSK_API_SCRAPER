@@ -77,7 +77,7 @@ def save_response(origin, destination, response):
     )
 
     with open(folder / filename, "wb") as f:
-        compress(data=json.dump(response, f, indent=4, ensure_ascii=False))
+        f.write(compress(data=json.dump(response, f, indent=4, ensure_ascii=False)))
 
 
 
