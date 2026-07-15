@@ -13,7 +13,7 @@ import zstandard as zstd
 import argparse
 zzsk_api = train_API()
 
-DUMP_DIR = "./data_dump"
+DUMP_DIR = "data/raw"
 POLL_INTERVAL_SEC = 30
 
 
@@ -50,6 +50,7 @@ ROUTES = [
 ]
 
 parser = argparse.ArgumentParser()
+parser.add_argument("-o","--Output",help="location of output directory",default=DUMP_DIR)
 parser.add_argument("-cl","--CompressionLevel",help="level to compress json at using zstandard",default=4)
 args = parser.parse_args()
 
@@ -66,7 +67,7 @@ def save_response(origin, destination, response):
     now = datetime.utcnow()
 
     folder = (
-        Path("data/raw")
+        Path(args.Output)
         / str(now.year)
         / f"{now.month:02d}"
         / f"{now.day:02d}"
