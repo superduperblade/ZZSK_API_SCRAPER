@@ -76,7 +76,7 @@ def save_response(origin, destination, response):
         f"{safe_destination.replace(' ','_')}.json"
     )
 
-    with open(folder / filename, "wb", encoding="utf8") as f:
+    with open(folder / filename, "wb") as f:
         compress(data=json.dump(response, f, indent=4, ensure_ascii=False))
 
 
