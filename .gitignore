@@ -2,7 +2,7 @@
 venv/
 .venv/
 env/
-data/
+
 # Python bytecode
 __pycache__/
 *.py[cod]
@@ -43,3 +43,7 @@ htmlcov/
 
 # Generated JSON (optional)
 response.json
+
+#files
+data/
+data_dump/
