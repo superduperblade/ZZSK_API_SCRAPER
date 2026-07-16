@@ -1,0 +1,1 @@
+- Not intented to be used with jsons gigabytes large . If you do you may run out of memory as these jsons are evaluated in ram
