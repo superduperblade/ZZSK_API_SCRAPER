@@ -47,3 +47,5 @@ response.json
 #files
 data/
 data_dump/
+*.csv
+*.json

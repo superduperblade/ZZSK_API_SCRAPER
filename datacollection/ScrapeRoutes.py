@@ -15,15 +15,17 @@ from datetime import datetime
 import json
 import zstandard as zstd
 import argparse
+import csv
+import python
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from api.zzsk import train_API
-
+from proccessing.JsonValidator import JsonValidator
 zzsk_api = train_API()
 
 DUMP_DIR = "data/raw"
 POLL_INTERVAL_SEC = 30
-
+RANDOM_ROUTE_POLL_INTERVAL_SEC = 500
 
 ROUTES = [
     # 1-4: Main Corridor
@@ -56,12 +58,51 @@ ROUTES = [
     ("5613600", "5613580"), ("5613580", "5613600"), # Košice <-> Čierna nad Tisou
     ("5617915", "5614776"), ("5614776", "5617915"), # Žilina <-> Čadca
 ]
+random_Routes = []
+train_stations = []
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-o","--Output",help="location of output directory",default=DUMP_DIR)
 parser.add_argument("-cl","--CompressionLevel",help="level to compress json at using zstandard",default=4)
+parser.add_argument("-csv","--csv",help="location of the train station csv to use to pull random routes",default="./train-station.csv")
 args = parser.parse_args()
 
+
+def readTrainStaions_csv(csv_path):
+    with open(csv_path,newline="") as f:
+        reader = csv.reader(f)
+        return reader
+
+
+def generateRandomStationList(station_list,amount,maxRange=None):
+    if maxRange == None:
+        maxRange = len(station_list)
+    
+   
+    jvalid = JsonValidator()
+    random_station_list = [] 
+    for i in range(amount):
+        isStationValid = False
+        while isStationValid == False:
+        
+            r1 = random.randint(1,maxRange)
+            r2 = random.randint(1,maxRange)
+            station_1 = station_list[r1]
+            station_1_uuic_code = station_list[0]
+        
+            station_2 = station_list[r2]
+            stations_2_uuic_code = station_list[0]
+            
+            result = zzsk_api.queryRoute(fromStation=station_1_uuic_code,toStation=stations_2_uuic_code,returnjson=True)
+            if jvalid.isJsonEmpty(content=result) == False:
+                isStationValid = True
+                random_station_list.append((station_1_uuic_code,stations_2_uuic_code))
+    return random_station_list
+           
+            
+
+    
+def genreateRandomStation(stationList,maxRange):
 
 def compress(content):
     """
@@ -153,5 +194,5 @@ def main():
         time.sleep(POLL_INTERVAL_SEC)
 
 
-
+populateTrainStaions(args.csv)
 main()
