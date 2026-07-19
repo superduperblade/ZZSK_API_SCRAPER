@@ -16,7 +16,7 @@ import json
 import zstandard as zstd
 import argparse
 import csv
-import python
+import random
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from api.zzsk import train_API
@@ -24,6 +24,7 @@ from proccessing.JsonValidator import JsonValidator
 zzsk_api = train_API()
 
 DUMP_DIR = "data/raw"
+MAX_RANDOM_STAIONS = 20
 POLL_INTERVAL_SEC = 30
 RANDOM_ROUTE_POLL_INTERVAL_SEC = 500
 
@@ -58,32 +59,40 @@ ROUTES = [
     ("5613600", "5613580"), ("5613580", "5613600"), # Košice <-> Čierna nad Tisou
     ("5617915", "5614776"), ("5614776", "5617915"), # Žilina <-> Čadca
 ]
-random_Routes = []
+
 train_stations = []
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-o","--Output",help="location of output directory",default=DUMP_DIR)
 parser.add_argument("-cl","--CompressionLevel",help="level to compress json at using zstandard",default=4)
-parser.add_argument("-csv","--csv",help="location of the train station csv to use to pull random routes",default="./train-station.csv")
+parser.add_argument("-csv","--csv",help="location of the train station csv to use to pull random routes",default="train-station.csv")
 args = parser.parse_args()
 
 
 def readTrainStaions_csv(csv_path):
     with open(csv_path,newline="") as f:
         reader = csv.reader(f)
-        return reader
+        return list(reader)
 
 
-def generateRandomStationList(station_list,amount,maxRange=None):
+def generateRandomRouteList(station_list,amount,maxRange=None):
     if maxRange == None:
         maxRange = len(station_list)
     
    
-    jvalid = JsonValidator()
+   
     random_station_list = [] 
     for i in range(amount):
-        isStationValid = False
-        while isStationValid == False:
+        random_station_list.append(genreateRandomRoute(station_list=station_list,maxRange=maxRange))
+    return random_station_list
+           
+            
+
+    
+def genreateRandomRoute(station_list,maxRange):
+    isStationValid = False
+    jvalid = JsonValidator()
+    while isStationValid == False:
         
             r1 = random.randint(1,maxRange)
             r2 = random.randint(1,maxRange)
@@ -93,17 +102,18 @@ def generateRandomStationList(station_list,amount,maxRange=None):
             station_2 = station_list[r2]
             stations_2_uuic_code = station_list[0]
             
-            result = zzsk_api.queryRoute(fromStation=station_1_uuic_code,toStation=stations_2_uuic_code,returnjson=True)
+            print("station1: ",station_1)
+            print("station2: ",station_2)
+            try: 
+                result = zzsk_api.queryRoute(fromStation=station_1_uuic_code,toStation=stations_2_uuic_code,returnjson=True)
+            except:
+                ##to do show error and correctly look for conection closed which equals rate limit
+                print("Waiting 10 seconds encountered a error")
+                time.sleep(10)
+                result = zzsk_api.queryRoute(fromStation=station_1_uuic_code,toStation=stations_2_uuic_code,returnjson=True)
             if jvalid.isJsonEmpty(content=result) == False:
                 isStationValid = True
-                random_station_list.append((station_1_uuic_code,stations_2_uuic_code))
-    return random_station_list
-           
-            
-
-    
-def genreateRandomStation(stationList,maxRange):
-
+                return(station_1_uuic_code,stations_2_uuic_code)
 def compress(content):
     """
     Compress JSON content using Zstandard compression.
@@ -162,19 +172,21 @@ def save_response(origin, destination, response):
 
 
 
+random_station_list = readTrainStaions_csv(args.csv)
 
 def main():
     if not os.path.exists(DUMP_DIR):
         os.makedirs(DUMP_DIR)
     
 
-    
-
+    counter = 1
+    random_Routes = generateRandomRouteList(station_list=random_station_list,amount=MAX_RANDOM_STAIONS)
     while True:
         current_time_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         print(f"--- Starting cycle at {current_time_str} ---")
         cycle_data = [] 
         errors = []
+       
 
         for origin,destination in ROUTES:
             print(f"saving {origin} --> {destination} route")
@@ -186,13 +198,24 @@ def main():
             except Exception  as e:
                 print("ERROR: ",e)
                 
-       
+        for origin,destination in ramdom_Routes:
+            print(f"saving {origin} --> {destination} route")
+
+            try:
+                route_responce = zzsk_api.queryRoute(fromStation=origin,toStation=destination,returnjson=True)
+                save_response(origin=origin,destination=destination,response=route_responce)
+                print("Responce saved")
+            except Exception  as e:
+                print("ERROR: ",e)
+                
 
         print(f"Cycle complete. ") 
         print(f"Sleeping for {POLL_INTERVAL_SEC / 60} minutes...\n") 
         
         time.sleep(POLL_INTERVAL_SEC)
+        counter += 1 
+        if counter ==5:
+            counter = 0
+            generateRandomRouteList(station_list=random_Routes,amount=MAX_RANDOM_STAIONS)
 
-
-populateTrainStaions(args.csv)
 main()
