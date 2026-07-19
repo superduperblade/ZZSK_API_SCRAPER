@@ -1,6 +1,12 @@
+"""
+Example usage of the ZSSK API client.
+
+Demonstrates basic API queries for stations, routes, and train delays.
+"""
 from api.zzsk import train_API
 import json
 
+# Initialize the API client
 zssk_api = train_API()
 
 zssk_api.queryStation("Bratislava")

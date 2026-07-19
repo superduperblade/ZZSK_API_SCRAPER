@@ -1,3 +1,9 @@
+"""
+Route Scraper for ZSSK API.
+
+Continuously collects route data between predefined station pairs
+and saves them to compressed JSON files.
+"""
 import math
 import time
 import pandas as pd
@@ -7,10 +13,12 @@ import os
 from pathlib import Path
 from datetime import datetime
 import json
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from api.zzsk import train_API
 import zstandard as zstd
 import argparse
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from api.zzsk import train_API
+
 zzsk_api = train_API()
 
 DUMP_DIR = "data/raw"
@@ -56,6 +64,15 @@ args = parser.parse_args()
 
 
 def compress(content):
+    """
+    Compress JSON content using Zstandard compression.
+    
+    Args:
+        content: Data to compress (will be JSON serialized).
+    
+    Returns:
+        bytes: Compressed data.
+    """
     data = json.dumps(content).encode("utf-8")
     compressor = zstd.ZstdCompressor(level=args.CompressionLevel)
     compressed_data = compressor.compress(data)
@@ -63,7 +80,17 @@ def compress(content):
 
 
 def save_response(origin, destination, response):
-
+    """
+    Save route response to a compressed JSON file.
+    
+    Creates a directory structure: output/YYYY/MM/DD/
+    Filename format: YYYYMMDD_HHMMSS_origin_destination.json
+    
+    Args:
+        origin (str): Origin station ID.
+        destination (str): Destination station ID.
+        response (dict): Route data to save.
+    """
     now = datetime.utcnow()
 
     folder = (
